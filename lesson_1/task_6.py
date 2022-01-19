@@ -5,14 +5,6 @@
 '''
 import locale
 
-words_list = [
-    'сетевое программирование',
-    'сокет',
-    'декоратор',
-]
-with open('test_file.txt', 'w') as f:
-    for word in words_list:
-        f.write(word + '\n')
 
 print(locale.getpreferredencoding())
 
