@@ -1,0 +1,16 @@
+2022-01-29 19:53:54,147 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-01-29 19:53:54,147 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-01-29 19:53:54,147 INFO func_client.py  Сообщение подготовлено
+2022-01-29 19:53:54,147 INFO func_client.py  Сообщение подготовлено
+2022-01-29 19:53:54,147 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-01-29 19:53:54,147 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-01-29 19:53:54,147 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46774), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1643475234.1473663, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-01-29 19:53:54,147 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46774), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1643475234.1473663, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-01-29 19:53:54,148 DEBUG decorators.py  Функция get_answer_from_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46774), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-01-29 19:53:54,148 DEBUG decorators.py  Функция get_answer_from_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46774), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-01-29 19:53:54,148 DEBUG decorators.py  Функция parse_server_message:args - ({'response': 200},);kwargs = {}
+2022-01-29 19:53:54,148 DEBUG decorators.py  Функция parse_server_message:args - ({'response': 200},);kwargs = {}
+2022-01-29 19:53:54,148 INFO client.py  Получено сообщение от сервера 200 : OK
+2022-01-29 19:53:54,148 INFO client.py  Получено сообщение от сервера 200 : OK
+2022-01-29 19:53:54,148 DEBUG decorators.py  Функция start_client:args - ();kwargs = {}
+2022-01-29 19:53:54,148 DEBUG decorators.py  Функция start_client:args - ();kwargs = {}
