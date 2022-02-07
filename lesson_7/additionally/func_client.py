@@ -10,10 +10,9 @@ sys.path.append('../')
 import lesson_6.logs.client_log_config
 
 
-from .constans import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR, MAX_SIZE_SMS, \
-    ENCODING
-
-
+from .constans import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, \
+    ERROR, MAX_SIZE_SMS, \
+    ENCODING, MESSAGE_TEXT
 
 logger = logging.getLogger('client')
 
@@ -35,6 +34,25 @@ def client_presence(account_name='Guest'):
     logger.info(f'Сообщение подготовлено')
     return result
 
+
+@log
+def create_message(sock, account_name='Guest'):
+    message = input('Введите сообщение или q для выхода: ')
+    if message == 'q':
+        sock.close()
+        logger.info('Пользователь покинул сеанс')
+        print('Спасибо, друг! Заходи еще..')
+        sys.exit(1)
+    message_dict = {
+            ACTION: 'message',
+            TIME: time.time(),
+            ACCOUNT_NAME: account_name,
+            MESSAGE_TEXT: message,
+        }
+    logger.debug(f'Сформирован ответ {message_dict}')
+    return message_dict
+
+
 @log
 def send_message_to_server(sock, message):
     '''
@@ -43,6 +61,9 @@ def send_message_to_server(sock, message):
     :param message:
     :return:
     '''
+    if not isinstance(message, dict):
+        print('send message to server')
+        raise ValueError
     message_json = json.dumps(message)
     encode_message = message_json.encode(ENCODING)
     try:

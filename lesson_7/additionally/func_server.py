@@ -4,7 +4,8 @@ FUNCTION SERVER
 import json
 import logging
 from lesson_6.decorators import log
-from .constans import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR, ENCODING, MAX_SIZE_SMS
+from .constans import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, \
+    ERROR, ENCODING, MAX_SIZE_SMS, MESSAGE_TEXT
 
 from lesson_6.logs import server_log_config
 
@@ -28,7 +29,7 @@ def receiving_client_messages(client):
 
 
 @log
-def forming_response_to_client(message):
+def forming_response_to_client(message, message_list, client):
     '''
     Формирует ответ для клиента
     :return:
@@ -36,7 +37,12 @@ def forming_response_to_client(message):
     logger.debug(f'Разбор сообщения {message}')
     if ACTION in message and message[ACTION] == PRESENCE and TIME in message \
             and USER in message and message[USER][ACCOUNT_NAME] == 'Guest':
-        return {RESPONSE: 200}
+        sending_response_to_client(client, {RESPONSE: 200})
+        return
+    elif ACTION in message and message[ACTION] == 'message' and TIME in \
+        message and MESSAGE_TEXT in message:
+        message_list.append((message[ACCOUNT_NAME], message[MESSAGE_TEXT]))
+        return
     logger.warning(f'Возвращен статус 400.')
     return {
         RESPONSE: 400,

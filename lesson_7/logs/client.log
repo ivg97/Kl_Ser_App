@@ -14,3 +14,131 @@
 2022-01-29 19:53:54,148 INFO client.py  Получено сообщение от сервера 200 : OK
 2022-01-29 19:53:54,148 DEBUG decorators.py  Функция start_client:args - ();kwargs = {}
 2022-01-29 19:53:54,148 DEBUG decorators.py  Функция start_client:args - ();kwargs = {}
+2022-02-06 19:25:52,646 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 19:25:52,648 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 19:25:52,648 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 19:25:52,649 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 19:25:52,649 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 19:25:52,653 INFO func_client.py  Сообщение подготовлено
+2022-02-06 19:25:52,653 INFO func_client.py  Сообщение подготовлено
+2022-02-06 19:25:52,653 INFO func_client.py  Сообщение подготовлено
+2022-02-06 19:25:52,653 INFO func_client.py  Сообщение подготовлено
+2022-02-06 19:25:52,653 INFO func_client.py  Сообщение подготовлено
+2022-02-06 19:25:52,653 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 19:25:52,653 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 19:25:52,653 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 19:25:52,653 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 19:25:52,653 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 19:25:52,653 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40546), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644164752.6534529, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 19:25:52,654 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40548), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644164752.6534884, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 19:25:52,654 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40550), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644164752.653497, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 19:25:52,654 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40552), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644164752.6535332, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 19:25:52,654 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40554), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644164752.6535263, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 19:25:52,669 ERROR client.py  Не удалось декорировать собщение от <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40546), raddr=('127.0.0.1', 7777)>
+2022-02-06 19:25:52,669 DEBUG decorators.py  Функция start_client:args - ();kwargs = {}
+2022-02-06 20:24:31,892 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 20:24:31,892 INFO func_client.py  Сообщение подготовлено
+2022-02-06 20:24:31,892 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 20:24:31,893 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41444), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644168271.8925757, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 20:24:31,895 DEBUG decorators.py  Функция get_answer_from_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41444), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-06 20:24:31,896 DEBUG decorators.py  Функция parse_server_message:args - ({'response': 200},);kwargs = {}
+2022-02-06 20:24:31,896 INFO client.py  Получено сообщение от сервера 200 : OK
+2022-02-06 20:24:31,896 DEBUG decorators.py  Функция start_client:args - ();kwargs = {}
+2022-02-06 20:25:45,979 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 20:25:45,979 INFO func_client.py  Сообщение подготовлено
+2022-02-06 20:25:45,979 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 20:25:45,980 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41554), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644168345.979854, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 20:25:45,981 DEBUG decorators.py  Функция get_answer_from_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41554), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-06 20:25:45,981 DEBUG decorators.py  Функция parse_server_message:args - ({'response': 200},);kwargs = {}
+2022-02-06 20:25:45,981 INFO client.py  Получено сообщение от сервера 200 : OK
+2022-02-06 20:25:45,981 DEBUG decorators.py  Функция start_client:args - ();kwargs = {}
+2022-02-06 21:45:08,557 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 21:45:08,558 INFO func_client.py  Сообщение подготовлено
+2022-02-06 21:45:08,558 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 21:45:08,559 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46450), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644173108.5585716, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 21:49:43,762 CRITICAL client.py  Указан недопустимый номер порта. Диапазон допустимых портов с 1025 по 65535
+2022-02-06 22:10:53,606 CRITICAL client.py  Запуск сервера на порту send не допустимо. Допустимый диапазон портов от 1025 по 65535.
+2022-02-06 22:11:15,416 CRITICAL client.py  Запуск сервера на порту send не допустимо. Допустимый диапазон портов от 1025 по 65535.
+2022-02-06 22:11:55,976 CRITICAL client.py  Запуск сервера на порту send не допустимо. Допустимый диапазон портов от 1025 по 65535.
+2022-02-06 22:12:06,867 CRITICAL client.py  Запуск сервера на порту send не допустимо. Допустимый диапазон портов от 1025 по 65535.
+2022-02-06 22:13:17,059 CRITICAL client.py  Запуск сервера на порту send не допустимо. Допустимый диапазон портов от 1025 по 65535.
+2022-02-06 22:13:24,913 CRITICAL client.py  Запуск сервера на порту send не допустимо. Допустимый диапазон портов от 1025 по 65535.
+2022-02-06 22:13:24,913 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 22:13:24,913 INFO func_client.py  Сообщение подготовлено
+2022-02-06 22:13:24,913 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 22:13:24,913 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46822), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644174804.913408, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 22:15:12,799 CRITICAL client.py  Запуск сервера на порту send не допустимо. Допустимый диапазон портов от 1025 по 65535.
+2022-02-06 22:15:12,799 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 22:15:12,799 INFO func_client.py  Сообщение подготовлено
+2022-02-06 22:15:12,799 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 22:15:12,799 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46840), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644174912.7995734, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 22:15:45,155 CRITICAL client.py  Запуск сервера на порту send не допустимо. Допустимый диапазон портов от 1025 по 65535.
+2022-02-06 22:15:54,378 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 22:15:56,196 INFO func_client.py  Сообщение подготовлено
+2022-02-06 22:15:56,197 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 22:16:00,597 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46872), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644174956.196405, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 22:16:59,117 CRITICAL client.py  Запуск сервера на порту send не допустимо. Допустимый диапазон портов от 1025 по 65535.
+2022-02-06 22:17:04,151 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 22:17:05,313 INFO func_client.py  Сообщение подготовлено
+2022-02-06 22:17:05,313 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 22:17:06,395 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46884), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644175025.3129745, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-06 22:18:35,793 CRITICAL client.py  Запуск сервера на порту send не допустимо. Допустимый диапазон портов от 1025 по 65535.
+2022-02-06 22:18:41,810 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-06 22:18:42,306 INFO func_client.py  Сообщение подготовлено
+2022-02-06 22:18:42,307 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-06 22:19:03,923 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46904), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644175122.3060148, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-07 19:29:21,490 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 19:29:21,516 INFO func_client.py  Сообщение подготовлено
+2022-02-07 19:29:21,517 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-07 19:29:21,517 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48912), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644251361.516878, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-07 19:30:12,459 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 19:30:14,308 INFO func_client.py  Сообщение подготовлено
+2022-02-07 19:30:14,309 DEBUG decorators.py  Функция client_presence:args - ();kwargs = {}
+2022-02-07 19:32:23,537 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48928), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644251414.3088207, 'user': {'account_name': 'Guest'}});kwargs = {}
+2022-02-07 19:50:08,366 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 19:54:28,612 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:00:35,199 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:00:40,434 DEBUG func_client.py  Сформирован ответ {'action': 'message', 'time': 1644253240.4346728, 'account_name': 'Guest', 'message_text': 'ghbdtn'}
+2022-02-07 20:00:40,435 DEBUG decorators.py  Функция create_message:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49358), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-07 20:00:40,435 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49358), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1644253240.4346728, 'account_name': 'Guest', 'message_text': 'ghbdtn'});kwargs = {}
+2022-02-07 20:04:06,290 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:04:34,604 DEBUG func_client.py  Сформирован ответ {'action': 'message', 'time': 1644253474.6044004, 'account_name': 'Guest', 'message_text': 'qwe'}
+2022-02-07 20:04:34,604 DEBUG decorators.py  Функция create_message:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49396), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-07 20:04:34,605 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49396), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1644253474.6044004, 'account_name': 'Guest', 'message_text': 'qwe'});kwargs = {}
+2022-02-07 20:08:14,652 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:08:17,889 INFO func_client.py  Пользователь покинул сеанс
+2022-02-07 20:08:21,909 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:08:24,070 DEBUG func_client.py  Сформирован ответ {'action': 'message', 'time': 1644253704.0701044, 'account_name': 'Guest', 'message_text': 'w'}
+2022-02-07 20:08:24,070 DEBUG decorators.py  Функция create_message:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49408), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-07 20:08:24,070 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49408), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1644253704.0701044, 'account_name': 'Guest', 'message_text': 'w'});kwargs = {}
+2022-02-07 20:09:07,510 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:09:30,143 DEBUG func_client.py  Сформирован ответ {'action': 'message', 'time': 1644253759.5604885, 'account_name': 'Guest', 'message_text': 'w'}
+2022-02-07 20:09:40,490 DEBUG decorators.py  Функция create_message:args - (<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49426), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-07 20:10:33,345 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49426), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1644253759.5604885, 'account_name': 'Guest', 'message_text': 'w'});kwargs = {}
+2022-02-07 20:36:32,582 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:39:18,222 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:39:26,965 DEBUG func_client.py  Сформирован ответ {'action': 'message', 'time': 1644255566.9649613, 'account_name': 'Guest', 'message_text': 'привет'}
+2022-02-07 20:39:26,965 DEBUG decorators.py  Функция create_message:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49708), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-07 20:39:26,966 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49708), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1644255566.9649613, 'account_name': 'Guest', 'message_text': 'привет'});kwargs = {}
+2022-02-07 20:43:24,317 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:43:40,029 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:43:46,422 DEBUG func_client.py  Сформирован ответ {'action': 'message', 'time': 1644255826.4225597, 'account_name': 'Guest', 'message_text': 'привет'}
+2022-02-07 20:43:46,423 DEBUG decorators.py  Функция create_message:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49784), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-07 20:43:46,423 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49784), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1644255826.4225597, 'account_name': 'Guest', 'message_text': 'привет'});kwargs = {}
+2022-02-07 20:45:44,317 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:49:21,881 DEBUG func_client.py  Сформирован ответ {'action': 'message', 'time': 1644256161.881227, 'account_name': 'Guest', 'message_text': 'привет'}
+2022-02-07 20:49:21,881 DEBUG decorators.py  Функция create_message:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49916), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-07 20:49:21,882 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49916), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1644256161.881227, 'account_name': 'Guest', 'message_text': 'привет'});kwargs = {}
+2022-02-07 20:53:07,664 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:54:05,594 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:54:14,912 DEBUG func_client.py  Сформирован ответ {'action': 'message', 'time': 1644256454.912138, 'account_name': 'Guest', 'message_text': ''}
+2022-02-07 20:54:14,912 DEBUG decorators.py  Функция create_message:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49972), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-07 20:54:14,913 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49972), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1644256454.912138, 'account_name': 'Guest', 'message_text': ''});kwargs = {}
+2022-02-07 20:54:14,913 DEBUG func_client.py  Сформирован ответ {'action': 'message', 'time': 1644256454.9136677, 'account_name': 'Guest', 'message_text': 'й'}
+2022-02-07 20:54:14,914 DEBUG decorators.py  Функция create_message:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49972), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-07 20:54:14,914 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49972), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1644256454.9136677, 'account_name': 'Guest', 'message_text': 'й'});kwargs = {}
+2022-02-07 20:54:19,035 INFO func_client.py  Пользователь покинул сеанс
+2022-02-07 20:56:34,366 INFO client.py  Клиент запущен: 127.0.0.1: 7777
+2022-02-07 20:56:44,986 DEBUG func_client.py  Сформирован ответ {'action': 'message', 'time': 1644256604.9866526, 'account_name': 'Guest', 'message_text': 'hi'}
+2022-02-07 20:56:44,987 DEBUG decorators.py  Функция create_message:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50082), raddr=('127.0.0.1', 7777)>,);kwargs = {}
+2022-02-07 20:56:44,988 DEBUG decorators.py  Функция send_message_to_server:args - (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50082), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1644256604.9866526, 'account_name': 'Guest', 'message_text': 'hi'});kwargs = {}

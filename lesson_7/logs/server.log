@@ -12,3 +12,85 @@
 2022-01-29 19:53:54,148 DEBUG server.py Ответ клиенту сформирован {'response': 200}
 2022-01-29 19:53:54,148 DEBUG decorators.py Функция sending_response_to_client:args - (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46774)>, {'response': 200});kwargs = {}
 2022-01-29 19:53:54,148 DEBUG decorators.py Функция sending_response_to_client:args - (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46774)>, {'response': 200});kwargs = {}
+2022-02-06 19:25:52,646 INFO server.py Установлено соединение с ПК ('127.0.0.1', 40546)
+2022-02-06 19:25:52,665 DEBUG decorators.py Функция receiving_client_messages:args - (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40546)>,);kwargs = {}
+2022-02-06 19:25:52,665 DEBUG server.py Принято сообщение {'action': 'presence', 'time': 1644164752.6534529, 'user': {'account_name': 'Guest'}}
+2022-02-06 20:24:31,892 INFO server.py Установлено соединение с ПК ('127.0.0.1', 41444)
+2022-02-06 20:24:31,893 DEBUG decorators.py Функция receiving_client_messages:args - (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41444)>,);kwargs = {}
+2022-02-06 20:24:31,893 DEBUG server.py Принято сообщение {'action': 'presence', 'time': 1644168271.8925757, 'user': {'account_name': 'Guest'}}
+2022-02-06 20:24:31,894 DEBUG func_server.py Разбор сообщения {'action': 'presence', 'time': 1644168271.8925757, 'user': {'account_name': 'Guest'}}
+2022-02-06 20:24:31,894 DEBUG decorators.py Функция forming_response_to_client:args - ({'action': 'presence', 'time': 1644168271.8925757, 'user': {'account_name': 'Guest'}},);kwargs = {}
+2022-02-06 20:24:31,894 DEBUG server.py Ответ клиенту сформирован {'response': 200}
+2022-02-06 20:24:31,895 DEBUG decorators.py Функция sending_response_to_client:args - (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41444)>, {'response': 200});kwargs = {}
+2022-02-06 20:25:45,979 INFO server.py Установлено соединение с ПК ('127.0.0.1', 41554)
+2022-02-06 20:25:45,980 DEBUG decorators.py Функция receiving_client_messages:args - (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41554)>,);kwargs = {}
+2022-02-06 20:25:45,980 DEBUG server.py Принято сообщение {'action': 'presence', 'time': 1644168345.979854, 'user': {'account_name': 'Guest'}}
+2022-02-06 20:25:45,980 DEBUG func_server.py Разбор сообщения {'action': 'presence', 'time': 1644168345.979854, 'user': {'account_name': 'Guest'}}
+2022-02-06 20:25:45,980 DEBUG decorators.py Функция forming_response_to_client:args - ({'action': 'presence', 'time': 1644168345.979854, 'user': {'account_name': 'Guest'}},);kwargs = {}
+2022-02-06 20:25:45,981 DEBUG server.py Ответ клиенту сформирован {'response': 200}
+2022-02-06 20:25:45,981 DEBUG decorators.py Функция sending_response_to_client:args - (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41554)>, {'response': 200});kwargs = {}
+2022-02-06 21:45:08,558 INFO server.py Установлено соединение с ПК ('127.0.0.1', 46450)
+2022-02-06 21:45:08,575 DEBUG func_server.py Разбор сообщения <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46450)>
+2022-02-06 21:45:08,576 INFO server.py Клиент тключился
+2022-02-06 22:13:24,913 INFO server.py Установлено соединение с ПК ('127.0.0.1', 46822)
+2022-02-06 22:13:25,114 DEBUG func_server.py Разбор сообщения <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46822)>
+2022-02-06 22:13:25,114 INFO server.py Клиент тключился
+2022-02-06 22:15:12,799 INFO server.py Установлено соединение с ПК ('127.0.0.1', 46840)
+2022-02-06 22:15:13,000 DEBUG func_server.py Разбор сообщения <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46840)>
+2022-02-06 22:15:13,000 INFO server.py Клиент тключился
+2022-02-06 22:15:53,333 INFO server.py Установлено соединение с ПК ('127.0.0.1', 46872)
+2022-02-06 22:16:00,747 DEBUG func_server.py Разбор сообщения <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46872)>
+2022-02-06 22:16:00,747 INFO server.py Клиент тключился
+2022-02-06 22:17:03,454 INFO server.py Установлено соединение с ПК ('127.0.0.1', 46884)
+2022-02-06 22:17:06,459 DEBUG func_server.py Разбор сообщения <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46884)>
+2022-02-06 22:17:06,460 INFO server.py Клиент тключился
+2022-02-06 22:18:40,934 INFO server.py Установлено соединение с ПК ('127.0.0.1', 46904)
+2022-02-06 22:18:56,563 DEBUG func_server.py Разбор сообщения <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46904)>
+2022-02-06 22:18:56,564 INFO server.py Клиент тключился
+2022-02-07 19:29:21,490 INFO server.py Установлено соединение с ПК ('127.0.0.1', 48912)
+2022-02-07 19:29:21,554 DEBUG func_server.py Разбор сообщения <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48912)>
+2022-02-07 19:29:21,554 INFO server.py Клиент тключился
+2022-02-07 19:30:09,614 INFO server.py Установлено соединение с ПК ('127.0.0.1', 48928)
+2022-02-07 19:30:33,455 DEBUG func_server.py Разбор сообщения <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48928)>
+2022-02-07 19:30:33,456 INFO server.py Клиент тключился
+2022-02-07 19:50:08,366 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49086)
+2022-02-07 19:54:28,426 DEBUG func_server.py Разбор сообщения <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49086)>
+2022-02-07 19:54:28,427 INFO server.py Клиент тключился
+2022-02-07 19:54:28,612 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49178)
+2022-02-07 20:00:35,199 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49358)
+2022-02-07 20:00:40,609 DEBUG func_server.py Разбор сообщения <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49358)>
+2022-02-07 20:00:40,610 INFO server.py Клиент тключился
+2022-02-07 20:04:06,290 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49396)
+2022-02-07 20:04:34,741 DEBUG func_server.py Разбор сообщения <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49396)>
+2022-02-07 20:04:34,741 INFO server.py Клиент тключился
+2022-02-07 20:08:14,652 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49406)
+2022-02-07 20:08:18,058 DEBUG func_server.py Разбор сообщения <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49406)>
+2022-02-07 20:08:18,059 INFO server.py Клиент тключился
+2022-02-07 20:08:21,909 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49408)
+2022-02-07 20:08:24,113 DEBUG func_server.py Разбор сообщения <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49408)>
+2022-02-07 20:08:24,114 INFO server.py Клиент тключился
+2022-02-07 20:09:07,510 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49426)
+2022-02-07 20:09:54,795 DEBUG func_server.py Разбор сообщения <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49426)>
+2022-02-07 20:09:54,796 INFO server.py Клиент тключился
+2022-02-07 20:36:32,582 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49606)
+2022-02-07 20:39:18,222 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49708)
+2022-02-07 20:39:27,232 DEBUG decorators.py Функция receiving_client_messages:args - (<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49708)>,);kwargs = {}
+2022-02-07 20:39:27,233 DEBUG func_server.py Разбор сообщения {'action': 'message', 'time': 1644255566.9649613, 'account_name': 'Guest', 'message_text': 'привет'}
+2022-02-07 20:39:27,233 DEBUG decorators.py Функция forming_response_to_client:args - ({'action': 'message', 'time': 1644255566.9649613, 'account_name': 'Guest', 'message_text': 'привет'}, [('Guest', 'привет')], <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49708)>);kwargs = {}
+2022-02-07 20:44:38,825 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49758)
+2022-02-07 20:46:00,529 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49784)
+2022-02-07 20:46:37,839 DEBUG decorators.py Функция receiving_client_messages:args - (<socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49784)>,);kwargs = {}
+2022-02-07 20:46:42,536 DEBUG func_server.py Разбор сообщения {'action': 'message', 'time': 1644255826.4225597, 'account_name': 'Guest', 'message_text': 'привет'}
+2022-02-07 20:46:42,538 DEBUG decorators.py Функция forming_response_to_client:args - ({'action': 'message', 'time': 1644255826.4225597, 'account_name': 'Guest', 'message_text': 'привет'}, [('Guest', 'привет')], <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49784)>);kwargs = {}
+2022-02-07 20:47:07,992 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49916)
+2022-02-07 20:47:55,585 INFO server.py Клиент oтключился
+2022-02-07 20:49:55,683 DEBUG decorators.py Функция receiving_client_messages:args - (<socket.socket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49916)>,);kwargs = {}
+2022-02-07 20:49:59,578 DEBUG func_server.py Разбор сообщения {'action': 'message', 'time': 1644256161.881227, 'account_name': 'Guest', 'message_text': 'привет'}
+2022-02-07 20:49:59,579 DEBUG decorators.py Функция forming_response_to_client:args - ({'action': 'message', 'time': 1644256161.881227, 'account_name': 'Guest', 'message_text': 'привет'}, [('Guest', 'привет'), ('Guest', 'привет')], <socket.socket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49916)>);kwargs = {}
+2022-02-07 20:53:18,603 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49970)
+2022-02-07 20:55:51,147 INFO server.py Установлено соединение с ПК ('127.0.0.1', 49972)
+2022-02-07 20:56:03,939 INFO server.py Клиент oтключился
+2022-02-07 20:56:59,777 INFO server.py Установлено соединение с ПК ('127.0.0.1', 50082)
+2022-02-07 20:58:40,051 DEBUG decorators.py Функция receiving_client_messages:args - (<socket.socket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50082)>,);kwargs = {}
+2022-02-07 20:58:57,247 DEBUG func_server.py Разбор сообщения {'action': 'message', 'time': 1644256604.9866526, 'account_name': 'Guest', 'message_text': 'hi'}
+2022-02-07 20:58:57,248 DEBUG decorators.py Функция forming_response_to_client:args - ({'action': 'message', 'time': 1644256604.9866526, 'account_name': 'Guest', 'message_text': 'hi'}, [('Guest', 'hi')], <socket.socket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50082)>);kwargs = {}
